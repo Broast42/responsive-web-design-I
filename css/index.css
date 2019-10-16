@@ -270,13 +270,15 @@ address{
 		justify-content: space-around;
 		
 	}
-	 nav a{
-		 font-size: 15px;
-		 color: gray;
-		 padding-left: 0px;
+	
+	nav a{
+		font-size: 15px;
+		color: gray;
+		padding-left: 0px;
 	}
+	
 
-	nav div{
+	 nav div{ 
 		display: none;
 	}
 	
