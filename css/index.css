@@ -71,8 +71,8 @@ body{
 	background: white;
 	color: black;
 	margin: auto;
-	width: 876px;
- 
+    width: 800px;
+	
 }
 
 .topLogo{
@@ -108,6 +108,7 @@ header div.header-text h1{
 .services-header-img{
 	margin-top: 40px;
 	margin-bottom: 40px;
+	width: 100%;
 }
 
 .logo{
@@ -126,7 +127,6 @@ header div.header-text h1{
 header{
 	margin-top: 50px;
 	padding-bottom: 40px;
-	
 	border-bottom: 1px solid black;
 }
 
@@ -168,7 +168,7 @@ section{
 }
 
 .info-box{
-	width: 400px;
+	width: 362px;
 	margin: 19px;
 	border: 1px solid black;
 	background: #f0f0f5;
@@ -294,6 +294,29 @@ address{
 		width: 100%;
 	}
 
+	.service-section{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.info-box{
+		width: 90%;
+		
+	}
+
+	.services-footer{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.footer-text{
+		order: 2; 
+	}
+
+	.footerImg{
+		order: 1;
+		margin-bottom: 20px;
+	}
 
 }
 
